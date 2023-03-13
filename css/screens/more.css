@@ -1,0 +1,22 @@
+.suggestions {
+  border-top: var(--border);
+  padding: 25px 0;
+  font-size: 15px;
+}
+.suggestions__content {
+  padding: 25px 0;
+  display: flex;
+}
+.suggestions__content__icon {
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+}
+.suggestions__content__icon img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,29 @@
+.settings-list {
+  border-bottom: 1px solid var(--chev-gray);
+  padding: 15px var(--horizontal-space);
+  position: relative;
+  top: -10px;
+}
+
+.settings__setting {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  color: var(--black-gray);
+  padding: 25px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.settings__setting:last-child {
+  border: none;
+}
+.settings__setting__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.settings__setting__column:first-child span {
+  margin: 0 8px 0 20px;
+}
+.settings__setting__column:last-child {
+  color: gray;
+}

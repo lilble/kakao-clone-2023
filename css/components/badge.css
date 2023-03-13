@@ -1,0 +1,36 @@
+.badge {
+  background-color: tomato;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.badge--setting {
+  width: 18px;
+  height: 18px;
+  font-size: 11px;
+}
+.notify {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+}
+.nav--notify {
+  right: -5px;
+  top: 0px;
+}
+.menu-row__element--notify {
+  right: 30px;
+  top: -10px;
+}
+.screen-header__icons__icon--notify {
+  right: -2px;
+  top: -7px;
+}

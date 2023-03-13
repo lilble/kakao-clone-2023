@@ -1,0 +1,52 @@
+.screen-header {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px var(--horizontal-space) 20px var(--horizontal-space);
+}
+.screen-header__title {
+  font-size: 28px;
+  font-weight: bold;
+}
+.screen-header__icons {
+  display: flex;
+  position: relative;
+}
+.screen-header__icons__icon {
+  margin-left: 20px;
+  width: 25px;
+  height: 25px;
+}
+.screen-header__icons__icon--chat {
+  font-weight: 600;
+  position: relative;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+.screen-header__icons__icon--chat div {
+  position: absolute;
+  right: 1px;
+  display: block;
+  width: 11px;
+  height: 11px;
+  background-color: white;
+  border-radius: 50%;
+}
+.screen-header__icons__icon--chat span {
+  position: absolute;
+  right: 1px;
+}
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.screen-header__icons__icon .fa-gear:hover {
+  animation: rotateCog 1s linear infinite;
+}
