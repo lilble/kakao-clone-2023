@@ -1,0 +1,19 @@
+.width-alert {
+  z-index: 2;
+  background-color: var(--yellow);
+  color: var(--black-gray);
+  font-size: 25px;
+  font-weight: 600;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 680px) {
+  .width-alert {
+    display: none;
+  }
+}
